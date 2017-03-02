@@ -45,7 +45,7 @@ public class CommonProcessorOld implements PageProcessor {
 		}
 		if (islast.equals("1")) {
 			Selector selector;
-			page.getHtml().select(selector);
+//			page.getHtml().select(selector);
 			page.putField("", "");
 
 		} else {
